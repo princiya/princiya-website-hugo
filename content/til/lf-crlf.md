@@ -26,4 +26,6 @@ More on the above command from git documentation:
 ![Part 1](/img/lf-1.png)
 ![Part 1](/img/lf-2.png)
 
+### Source
+
 [This](http://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important) answer from StackOverflow helped me.
