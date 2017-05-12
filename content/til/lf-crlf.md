@@ -19,7 +19,7 @@ I used one of the existing themes for my HUGO website. Looks like it was from a 
 
 Although this wasn't the first time I have seen this, I have chosen to ignore this all while. But it was worth learning. I got rid of the warning with the following `git` command:
 
-`git config core.autocrlf false`.
+`git config core.autocrlf false`
 
 More on the above command from git documentation:
 
