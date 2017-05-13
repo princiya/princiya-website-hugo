@@ -1,8 +1,15 @@
 +++
 date = "2017-05-12T20:02:26+02:00"
 title = "lf vs cr"
+tags = [ "lf", "crlf", "file system"]
+categories = [ "Technical" ]
+series = [ "2017", "May" ]
 
 +++
+
+It's really just about which bytes are stored in a file.
+
+<!--more-->
 
 # Today I Learned - lf vs  cf
 

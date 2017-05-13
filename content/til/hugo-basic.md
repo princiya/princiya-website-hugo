@@ -1,7 +1,9 @@
 +++
 date = "2017-05-10T15:01:12+02:00"
-title = "til example 2"
-
+title = "Hugo basics"
+tags = [ "hugo", "website generator"]
+categories = [ "Technical" ]
+series = [ "2017", "May" ]
 +++
 
 # Today I Learned - HUGO

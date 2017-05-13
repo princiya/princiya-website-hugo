@@ -15,6 +15,11 @@ publishdir          = "public"
 fixed = ":title/"
 til  = "til/:slug/"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
 [params]
 author        = "Princiya Marina Sequeira" # Full name shows on blog post pages
 firstname     = "Princiya" # First name shows in introduction on main page
