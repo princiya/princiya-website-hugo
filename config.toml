@@ -23,7 +23,7 @@ series = "series"
 [params]
 author        = "Princiya Marina Sequeira" # Full name shows on blog post pages
 firstname     = "Princiya" # First name shows in introduction on main page
-tagline       = "I <3 food & JavaScript." # Appears after the introduction
+tagline       = "I <3 food & JavaScript" # Appears after the introduction
 introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
 avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png 
 email         = "" # Shows in contact section, or leave blank to omit

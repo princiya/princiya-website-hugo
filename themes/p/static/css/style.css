@@ -1,6 +1,11 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	font-family: Open Sans,sans-serif;
+}
+
+a {
+	text-decoration: none;
 }
 
 .main {
@@ -8,7 +13,7 @@ html, body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: calc(100% - 20px);
+	height: calc(100% - 40px);
 }
 
 .main__intro {
@@ -24,7 +29,33 @@ html, body {
 	margin-top: auto;
 }
 
+.nav {
+	width: calc(100% - 20px);
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.nav a {
+	color: #666;
+}
+
+.nav a:hover {
+	color: #333;
+}
+
+.social__icons a {
+	color: #00b8d4;
+	font-size: 1.5em;
+	margin: 0 10px;
+}
+
 .footer {
-	text-align: right;
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
 }
 
