@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+<div class="main" id="main">
+    <div class="introduction">
+        <h1 class="title">
+            Hi, I'm {{ .Site.Params.firstname }}
+        </h1>
+        <h3 class="description">
+            {{ .Site.Params.tagline }}
+        </h3>
+        <div class="social">
+            {{ partial "social-icons.html" . }}
+        </div>
+    </div>
+
+    {{ partial "navigation.html" . }}
+</div>
+
+<script type="text/javascript">
+    const height = window.innerHeight - 60;
+    document.getElementById('main').style.height = `${height}px`;
+</script>
+
+{{ partial "footer.html" . }}

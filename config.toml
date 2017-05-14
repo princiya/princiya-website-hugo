@@ -1,7 +1,7 @@
 baseurl             = "/"
 languageCode        = "en-us"
 title               = "Princiya"
-theme               = "introduction"
+theme               = "p"
 enforce_ssl         = "princiya.com"
 builddrafts         = false
 canonifyurls        = true
