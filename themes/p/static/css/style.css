@@ -1,0 +1,30 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: calc(100% - 20px);
+}
+
+.main__intro {
+	width: 100%;
+	text-align: center;
+}
+
+.main__logo {
+	margin-bottom: auto;
+}
+
+.main .nav {
+	margin-top: auto;
+}
+
+.footer {
+	text-align: right;
+}
+
