@@ -1,19 +1,15 @@
 +++
+categories = ["Technical", "2017", "May", "TIL"]
 date = "2017-05-12T17:53:16+02:00"
+description = "Line feed & Carriage return"
+draft = false
+tags = ["lf", "crlf", "file system"]
 title = "lf crlf"
-tags = [ "lf", "crlf", "file system"]
-categories = [ "Technical" ]
-series = [ "2017", "May" ]
+weight = 20
 
 +++
 
-# Today I Learned - lf & crlf
-
-## Overview
-
 In Unix systems the end of a line is represented with a line feed `LF`. In windows a line is represented with a carriage return (CR) and a line feed (LF) thus `CRLF`. When you get code from git that was uploaded from a unix system they will only have an LF.
-
-## Context
 
 I used one of the existing themes for my HUGO website. Looks like it was from a Unix file system. With my current development environment being Windows, I kept getting the following issue:
 

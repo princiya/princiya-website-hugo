@@ -1,13 +1,12 @@
 +++
-date = "2017-05-10T15:01:12+02:00"
-title = "til overview"
-series = [ "2017", "May" ]
+categories = ["TIL"]
+date = "2017-05-12T17:53:16+02:00"
+description = "Today I Learned series"
+draft = false
+title = "TIL"
+weight = 20
 +++
 
-# Today I Learned!
-
 This section covers my 'today I learned' series.
-
-## Overview:
 
 Everyday I learn so many new things and I intend to document them here.

@@ -3,21 +3,10 @@ date = "2017-06-04T17:11:57+02:00"
 description = "It's really just about which bytes are stored in a file."
 draft = false
 title = "lf vs cr"
+tags = [ "lf", "crlf", "file system"]
+categories = [ "Technical", "2017", "May", "TIL"]
 weight = 20
-
 +++
-
-It's really just about which bytes are stored in a file.
-
-<!--more-->
-
-# Today I Learned - lf vs  cf
-
-## Overview
-
-It's really just about which bytes are stored in a file.
-
-## Context
 
 Follow-up on my earlier [post]({{< relref "blog/lf-crlf.md" >}}), I wanted to find out what exactly is the difference between the two - `LF` vs `CR`.
 

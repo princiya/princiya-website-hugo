@@ -3,16 +3,25 @@
 
 {{ define "main" }}
 
-<div id="hero" class="wrap">
-  <h1>{{.Title }}</h1>
-    <p>{{.Params.description}}</p>
-</div>
-<ul id="posts">
+  <div id="hero" class="wrap">
+    <h1>{{.Title }}</h1>
+    <blockquote>{{ .Description }}</blockquote>
+    <time class="post-time">{{ partial "post/meta" . }}</time>
+  </div>
 
- {{ .Content }}
-  
-</ul>
-{{ end }} 
-{{ define "footer" }} 
-  {{ partial "footer" . }} 
+  <div id="post-box">
+    <div id="post">
+      {{.Content}}
+    </div>
+
+    <div class="">
+        {{ partial "post/byauthor" . }}
+        {{ partial "post/related-content" . }}
+    </div>
+</div>
+
+{{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
 {{ end }}
