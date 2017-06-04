@@ -1,8 +1,15 @@
 +++
 date = "2017-05-12T20:02:26+02:00"
 title = "lf vs cr"
+tags = [ "lf", "crlf", "file system"]
+categories = [ "Technical" ]
+series = [ "2017", "May" ]
 
 +++
+
+It's really just about which bytes are stored in a file.
+
+<!--more-->
 
 # Today I Learned - lf vs  cf
 
@@ -12,7 +19,7 @@ It's really just about which bytes are stored in a file.
 
 ## Context
 
-Follow-up on my earlier [post]({{< relref "til/lf-crlf.md" >}}), I wanted to find out what exactly is the difference between the two - `LF` vs `CR`.
+Follow-up on my earlier [post]({{< relref "blog/lf-crlf.md" >}}), I wanted to find out what exactly is the difference between the two - `LF` vs `CR`.
 
 `CR` is a bytecode for carriage return (from the days of typewriters) and `LF` similarly, for line feed. It just refers to the bytes that are placed as end-of-line markers.
 

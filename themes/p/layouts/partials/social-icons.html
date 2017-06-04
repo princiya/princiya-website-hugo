@@ -1,0 +1,7 @@
+<div class="social__icons">
+    {{ range .Site.Params.social }}
+    	<a href="{{ .url }}" target="_blank">
+        	<i class="fa fa-{{ .icon}}"></i>
+    	</a>
+    {{ end }}
+</div>

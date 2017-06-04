@@ -2,10 +2,6 @@
 
 <div class="section" id="top"><!-- Parent section -->
 
-    <div class="container hero {{ if .Site.Params.fadein }} fade-in one {{ end }}"><!-- Begin Title -->
-    <h1 class="bold-title is-1">{{ .Site.Params.firstname }}'s Blog</h1>
-    </div><!-- End Title -->
-
 <!-- Everything below fades in two! -->
 <div class="section {{ if .Site.Params.fadein }} fade-in two {{ end }}">
 
@@ -28,25 +24,28 @@
                 <i class="fa fa-twitter"></i>
                 <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                <i class="fa fa-facebook"></i>
-                <span class="hidden">Facebook</span>
-                </a>
-                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url={{ .Permalink }}{{ if .Params.pinterestmedia }}&amp;media={{ .Site.BaseURL }}{{ .Params.pinterestmedia }}{{ end }}&amp;description={{ .Title | safeHTML}}"
-                onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
-                <i class="fa fa-pinterest"></i>
-                <span class="hidden">Pinterest</span>
-                </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url={{ .Permalink }}"
-                onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                <i class="fa fa-linkedin"></i>
-                <span class="hidden">Google+</span>
-                </a>
                 </div>
             {{ end }}
 
     </div><!-- End blog title container -->
+
+    <div>
+        Tags:
+        <ul id="tags">
+          {{ range .Params.tags }}
+            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+    </div>
+
+    <div>
+        Categories:
+        <ul id="tags">
+          {{ range .Params.categories }}
+            <li><a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+          {{ end }}
+        </ul>
+    </div>
 
     <div class="container markdown {{ if .Site.Params.fadein }} fade-in two {{ end }} top-pad"><!-- Begin blog post content -->
         {{ .Content }}

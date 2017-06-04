@@ -1,6 +1,9 @@
 +++
 date = "2017-05-12T17:53:16+02:00"
 title = "lf crlf"
+tags = [ "lf", "crlf", "file system"]
+categories = [ "Technical" ]
+series = [ "2017", "May" ]
 
 +++
 

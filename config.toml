@@ -1,74 +1,17 @@
-baseurl             = "/"
-languageCode        = "en-us"
-title               = "Princiya"
-theme               = "introduction"
-enforce_ssl         = "princiya.com"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-layoutdir           = "layouts"
-publishdir          = "public"
-# disqusshortname   = "xxx" # Enable Disqus for comments
-# googleAnalytics   = "xxx"
+baseURL = "/"
+languageCode = "en-us"
+title = "Hi, I'm Princiya"
+theme = "kube"
+description = "I <3 Food & JavaScript!"
+Paginate = 5
+[Params]
+  RSSLink = "/index.xml"
+  author = "Princiya" # add your company name
+  github = "princiya" # add your github profile name
+  twitter = "princi_ya" # add your twitter profile
+  email = "hello@princiya.com"
 
-[permalinks]
-fixed = ":title/"
-til  = "til/:slug/"
-
-[params]
-author        = "Princiya Marina Sequeira" # Full name shows on blog post pages
-firstname     = "Princiya" # First name shows in introduction on main page
-tagline       = "I <3 food & JavaScript." # Appears after the introduction
-introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
-avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png 
-email         = "" # Shows in contact section, or leave blank to omit
-localtime     = true # Show your current local time in contact section
-timezone      = "Europe/Berlin" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-dateform      = "Jan 2, 2006"
-dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
-cachebuster   = true # Add the current unix timestamp in query string for cache busting css assets
-description   = "My personal website"
-faviconfile   = "img/fav.ico"
-highlightjs   = true # Syntax highlighting
-lang          = "en"
-footertext    = "My personal website. 2017" # Text to show in footer (overrides default text)
-
-fadein          = true # Turn on/off the fade-in effect
-
-showabout		= false
-
-showblog        = true # Show Blog section on home page
-showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-showlatest      = true # Show latest blog post summary
-sharebuttons    = true # On post pages, show share this social buttons
-
-showprojects    = false # Show Projects section on home page
-
-# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
-project1img     = "img/project1.jpg"
-project1title   = "Project 1"
-
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
-
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
-
-
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
-
-[[params.social]]
-url = "https://twitter.com/princi_ya"
-icon = "twitter"
-
-[[params.social]]
-url = "https://github.com/princiya"
-icon = "github"
-
-[[params.social]]
-url = "https://www.linkedin.com/in/princiya-marina-0a545a34/"
-icon = "linkedin"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
