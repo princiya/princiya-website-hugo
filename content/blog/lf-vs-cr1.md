@@ -19,7 +19,7 @@ It's really just about which bytes are stored in a file.
 
 ## Context
 
-Follow-up on my earlier [post]({{< relref "til/lf-crlf.md" >}}), I wanted to find out what exactly is the difference between the two - `LF` vs `CR`.
+Follow-up on my earlier [post]({{< relref "blog/lf-crlf.md" >}}), I wanted to find out what exactly is the difference between the two - `LF` vs `CR`.
 
 `CR` is a bytecode for carriage return (from the days of typewriters) and `LF` similarly, for line feed. It just refers to the bytes that are placed as end-of-line markers.
 
