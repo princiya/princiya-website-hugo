@@ -12,6 +12,11 @@ Paginate = 5
   email = "hello@princiya.com"
 
 [[menu.main]]
-    name = "Blog"
+    name = "TIL"
     weight = -100
     url = "/blog/"
+
+[[menu.main]]
+    name = "Portfolio"
+    weight = -200
+    url = "/portfolio/"
